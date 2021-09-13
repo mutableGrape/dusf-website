@@ -74,7 +74,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #0D0D0D;
 }
 
 .navbar-custom .navbar-brand {
@@ -97,7 +97,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #FFF;
 }
 
 .navbar-custom .nav li.active {
@@ -131,7 +131,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #0D0D0D;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -146,8 +146,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/Space6.JPG) no-repeat bottom center scroll;
-    background-color: #000;
+    background: url(../images/_head.jpg) no-repeat bottom center scroll;
+    background-color: #0D0D0D;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
