@@ -330,6 +330,11 @@ a:focus {
     padding-top: 15px;
 }
 
+.aether-II-section img {   /* So I've just copied the lines from above to make sure the images size themselves properly :) */
+    width: 100%;
+    padding-top: 15px;
+}
+
 .video-container {
     position: relative; 
     padding-bottom: 56.25%; 
@@ -349,6 +354,11 @@ a:focus {
 
 @media(max-width:992px) {
     .aether-section img{
+        width: 25%;
+        margin:5px;
+    }
+
+    .aether-II-section img{ /* This makes the images smaller when the window becomes too narrow :) */
         width: 25%;
         margin:5px;
     }
