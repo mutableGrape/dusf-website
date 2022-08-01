@@ -1,0 +1,528 @@
+
+/* CSS IMPORTED BY DAN FROM INDEX-STYLESHEET.CSS - NOTE EACH .HTML WILL NEED ITS OWN CSS FILE, BUT BITS THAT ARE COMMON TO ALL HTML FILES CAN BE SHARED IN ONE CSS FILE */ 
+
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ :root {
+    --buttoncolor: #F2B807;/*#219ab3; /* blue:#219ab3; purple:#bc7bc7 */
+    --buttoncoloralt: #073673; /* blue:#11505d; purple:#833888 */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #0D0D0D;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h4 {margin-top: 35px;}
+
+p {
+    margin: 25px 0 25px ;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: var(--buttoncoloralt);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: var(--buttoncolor); 
+}
+
+.light {
+    font-weight: 400;
+
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #0D0D0D;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #FFF;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #0D0D0D;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 80px;
+}
+
+@media(max-width:992px) {
+    .Gallery2-section img{
+        width: 25%;
+        margin:5px;
+    }
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+@media(min-width:992px) {
+    #sm-viewport {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
+    #lg-viewport {
+        display: none;
+    }
+}
+
+/* GALLERY FROM https://codepen.io/flyingcar/pen/jmvLqG */ 
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+/* body {
+	background: #048;
+	background: -webkit-linear-gradient(left top, #000033, #48a);
+	background: -moz-linear-gradient(bottom right, #000033, #48a);
+	background: linear-gradient(to bottom right, #000033, #48a);
+	background-attachment: fixed;
+	color: #fff;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 1px;
+	font-weight: 300;
+	line-height: 140%;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+} */
+
+.Gallery1-section {
+    background: #048;
+	background: -webkit-linear-gradient(left top, #000033, #48a);
+	background: -moz-linear-gradient(bottom right, #000033, #48a);
+	background: linear-gradient(to bottom right, #000033, #48a);
+	background-attachment: fixed;
+	color: #fff;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 1px;
+	font-weight: 300;
+	line-height: 140%;
+}
+.page_title {
+	font-weight: 30;
+	line-height: 12%;
+	margin: 10px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-transform: uppercase;
+}
+
+/* PEN STYLES ========== */
+.row {
+	margin: 0;
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 300;
+	font-size: 10px;
+	margin: 0 0 10px;
+	width: 100%;
+}
+.test_link {
+	border: 0px solid #fff;
+/* 	display: inline-block; */
+	font-size: 0;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin: 0 auto;
+/*	padding: 10px 30px; */
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url('../images/UKRA_2.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url('../images/UKRA_3.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url('../images/UKRA_1.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url('../images/UKRA_4.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-05 .inner {
+	background-image: url('../images/roc_ses_1.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-06 .inner {
+	background-image: url('../images/roc_ses_0.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* DAN's GALLERY 2 */
+
+.Gallery2-section img{
+	width: 100%;
+	padding: 15px; /* Play with this number to adjust spacings for Gallery 2 */ 
+	transition: all 0.2s ease;
+}
+
+.Gallery2 div img:hover {
+	margin-top: -5px;
+}
+
+.Gallery2-section div{
+	padding: 0;
+}
+.im_up:hover img {
+	margin-top: -5px;
+}
+
+.im_grow:hover img{
+	padding: 5px;
+}
+
+/* Gallery 3 */
+
+.Gallery3-section div {
+	padding: 0;
+	position: relative;
+}
+
+.Gallery3-section div .im1{
+	background: url(../images/floating.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.Gallery3-section div .im2{
+	background: url(../images/spacebear.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.Gallery3-section div .im3{
+	background: url(../images/UKRA_3.jpg) 40% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: all 0.2s ease;
+}
+
+.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.zoom {
+    transition: all 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(0.9);
+}
+
+/* Gallery 4 */
+
+.Gallery4-section div {
+	padding: 0;
+	position: relative;
+}
+
+.Gallery4-section div .im1{
+	background: url(../images/floating.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.Gallery4-section div .im2{
+	background: url(../images/spacebear.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.Gallery4-section div .im3{
+	background: url(../images/UKRA_3.jpg) 40% 50% no-repeat;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 100%;
+}
+
+.item {
+    transition: all 0.2s ease;
+}
+
+.Gallery4-section .item:hover {
+    padding-top: 80%;
+}
+
+.Gallery4-section .item:hover .im-info {
+    padding-top: 20%;
+    /* visibility: visible; */
+}
+
+.im-info {
+    width: 100%;
+    padding-top: 0;
+    height: 0;
+    /* visibility: hidden; */
+}
+
