@@ -154,6 +154,21 @@ a:focus {
     -o-background-size: cover;
 }
 
+.ro_intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../images/TVC_CAD.png) no-repeat bottom center scroll;
+    background-color: #0D0D0D;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
