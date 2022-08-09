@@ -528,6 +528,7 @@ body {
 
 @media(min-width:992px) {
     #sm-viewport {
+        display: none;
 
     }
 }
