@@ -99,6 +99,36 @@
             </div>
         </div>
     </header>
+    <section id="aether2" class="container content-section text-center ">
+       <div class="aether-II-section"> <!--class names need to be all one word, otherwise it's seen as two class names: class="ab" is different fron class="a b", which has both classes "a" and "b"-->
+           <h2>A Competition</h2>
+
+           <div class="col-md-6 aetherii-content" style="padding-top:15px;text-align: left;padding-left:90px;padding-right:90px;">
+
+               <p>Starting from October 2021, DU spaceflight rocketry teams A and B have been building a TVC model rocket to compete with each other. Both teams use the Aerotech F40W 29mm diameter RMS Motor that sits in an RMS-29/40-120 motor casing.</p>
+               <h4 style="margin:10px; color:rgba(255, 255, 255, 0.514);"><strong>Objective:</strong></h3>
+               <p>Design and build a small rocket to fly as high as possible, using a thrust-vector control system to stabilise itself, without any external human input during the flight.</p>
+               <div class=rocketrycompetition>
+
+
+           </div>
+
+       </div>
+
+<div class="row">
+  <div class="column" style="background-color:#F0F0F0;">
+    <h2 style="color:#383838">Team A</h2>
+    <p style="text-align: left;color:#383838">We designed our rocket with the aim of it being as simple as possible. This meant removing redundant sensors like an altimeter, and opting for a simpler stage separation design. Like group B, our sensor suite included an MPU 6050 accelerometer to help guide our rocket and keep it vertical during flight with two SG-90 servo motors. Where we differed is in our choice of microcontroller. We chose to use an ESP32 due to its higher compute power and larger pinout. To log our flight data during flight, we logged it to the internal flash storage of our ESP32, then dumped it to a microSD card at the end of the flight. This was to improve reliability as sometimes the micro SD card can become dislodged during flight, whereas the flash chip is soldered on to the board so is not susceptible to this. Our coupler and body tube are made out of cardboard tubing and our thrust vector control (TVC) mount and nose cone are 3D printed.</p>
+  </div>
+  <div class="column" style="background-color:#383838;">
+    <h2>Team B</h2>
+    <p style="text-align: left;">Our team ordered Arduino Nano to be used as a flight controller. The flight controller with a microSD reader serves as a data logger. We have included an MPU 6050 sensor, that measures the rotation and acceleration of the rocket, and a BMP 180, that senses the change in temperature and pressure while the rocket is in trajectory. Soldering the circuit board was a challenging task to do as the schematic we followed required many T-junctions and jumpers. After many hours of soldering and consistent testing, our flight controller proved to work. We used a 3D printer to print out a motor mount(TVC CAD file designed by the society) and different styles of nose cones to test which one is the most durable and aerodynamic.</p>
+  </div>
+  <div class="column" style="background-color:black;">
+    <image src="../images/rocketry_b.png"
+    <image width="200" height="470" style="object-fit: cover;"" src="../images/tvc_motor.png "
+  </div>
+   </section>
 
 
 
